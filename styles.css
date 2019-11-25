@@ -1,13 +1,26 @@
 .price-card {
-  overflow: hidden;
-  position: relative;
   width: 380px;
   padding: 31px 0 42px 0;
   background-color: #334247;
   margin-right: 15px;
+  overflow: hidden;
+  position: relative;
 }
 .price-card:last-child {
   margin-right: 0;
+}
+.price-card__title {
+  font-size: 25px;
+  line-height: 33px;
+  display: inline-block;
+}
+.price-card__title h2 {
+  margin: 0;
+}
+.price-card__title span {
+  font-weight: normal;
+  font-size: 21px;
+  opacity: 0.9;
 }
 .price-card__price {
   padding: 18px 0;
@@ -26,20 +39,6 @@
   display: inline-block;
   opacity: 0.8;
 }
-.price-card__title {
-  margin-top: 2px;
-  font-size: 25px;
-  line-height: 33px;
-  display: inline-block;
-}
-.price-card__title h2 {
-  margin: 0;
-}
-.price-card__title span {
-  font-weight: normal;
-  font-size: 21px;
-  opacity: 0.9;
-}
 .price-card__options-list {
   margin: 0;
   margin-top: 40px;
@@ -57,26 +56,26 @@
   background-color: #2a3438;
 }
 
-.headline {
+.top-wrap {
   text-align: center;
 }
 
-.container-description,
-.container-button {
+.price-card-wrap-for-description,
+.price-card-wrap-for-button {
   text-align: center;
 }
 
 .price-card__order-btn {
   display: inline-block;
+  margin: 37px auto 0 auto;
+  padding: 12px 0;
   border-radius: 20px;
-  width: 155px;
+  font-size: 14px;
+  width: 154px;
   line-height: 100%;
   text-align: center;
   border: none;
   outline: none;
-  margin: 37px auto 0 auto;
-  padding: 12px 0;
-  font-size: 14px;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -101,7 +100,7 @@
 .business .price-card__order-btn {
   background-color: #3a6ba5;
 }
-.business .price-card__ribbon {
+.business .price-card__sticker {
   position: absolute;
   background-color: #DC3F45;
   font-weight: bold;
