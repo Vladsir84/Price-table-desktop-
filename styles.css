@@ -26,18 +26,19 @@
   display: inline-block;
   opacity: 0.8;
 }
+.price-card__title {
+  margin-top: 2px;
+  font-size: 25px;
+  line-height: 33px;
+  display: inline-block;
+}
 .price-card__title h2 {
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 43px;
-  margin-bottom: 0;
-  margin-top: 30px;
+  margin: 0;
 }
 .price-card__title span {
-  font-weight: 300;
-  font-size: 20px;
-  margin: 0;
-  margin-bottom: 36px;
+  font-weight: normal;
+  font-size: 21px;
+  opacity: 0.9;
 }
 .price-card__options-list {
   margin: 0;
@@ -81,47 +82,47 @@
   letter-spacing: 0.5px;
 }
 
-.first .price-card__price {
+.basic .price-card__price {
   background-color: #5BB189;
 }
-.first .price-card__options-list__item {
+.basic .price-card__options-list__item {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
 }
-.first .price-card__order-btn {
+.basic .price-card__order-btn {
   background-color: #5BB189;
 }
 
-.second .price-card__price {
+.business .price-card__price {
   background-color: #3a6ba5;
 }
-.second .price-card__options-list__item {
+.business .price-card__options-list__item {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
 }
-.second .price-card__order-btn {
+.business .price-card__order-btn {
   background-color: #3a6ba5;
 }
-.second .price-card__ribbon {
+.business .price-card__ribbon {
   position: absolute;
   background-color: #DC3F45;
   font-weight: bold;
   font-size: 14px;
-  width: 147px;
-  height: 25px;
+  width: 147.8px;
+  height: 25.01px;
   text-align: center;
-  line-height: 25px;
+  line-height: 25.01px;
   right: -30px;
   top: 30px;
   transform: rotate(45deg);
   text-transform: uppercase;
 }
 
-.third .price-card__price {
+.webshop .price-card__price {
   background-color: #EC632A;
 }
-.third .price-card__options-list__item {
+.webshop .price-card__options-list__item {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
-.third .price-card__order-btn {
+.webshop .price-card__order-btn {
   background-color: #EC632A;
 }
 
