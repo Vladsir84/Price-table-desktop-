@@ -1,24 +1,25 @@
 .main {
     background-color: $color-dark;
+    display: flex;
     width: 1440px;
     height: 100vh;
     padding: 129px 135px 101px;
-    display: flex;
 }
 
 .price-card {
     width: 380px;
     height: 770px;
     background-color: $color-grey;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
     margin-right: 15px;
     text-align: center;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
     &:last-child {
         margin-right: 0;
     }
     &__price {
-        display: inline-block;
         width: 100%;
+        display: inline-block;
+        background-color: $color-green;
         font-weight: 700;
         font-size: 55px;
         line-height: 104px;
@@ -27,31 +28,31 @@
     &__description {
         width: 328px;
         margin: 0 auto;
-        font-weight: 300;
-        line-height: 18px;
         margin-top: 39px;
         margin-bottom: 42px;
+        font-weight: 300;
+        line-height: 18px;
     }
     &__order-btn {
+        color: $color-white;
+        line-height: 17px;
+        padding: 0;
+        margin-bottom: 42px;
+        text-transform: uppercase;
         width: 155px;
         height: 40px;
         border-radius: 20px;
         border: none;
-        color: $color-white;
-        text-transform: uppercase;
-        line-height: 17px;
-        padding: 0;
-        margin-bottom: 42px;
     }
 }
 
 .card-title {
     &__main {
+        margin-bottom: 0;
+        margin-top: 30px;
         font-weight: 700;
         font-size: 35px;
         line-height: 43px;
-        margin-bottom: 0;
-        margin-top: 30px;
     }
     &__subtitle {
         font-weight: 300;
@@ -80,7 +81,7 @@
     }
 }
 
-.list-item__image {
+.list-item__shape {
     width: 15px;
     height: 13px;
     margin-left: 22.25px;
@@ -88,7 +89,7 @@
     align-self: center;
 }
 
-.list-item__image-basic {
+.list-item__shape-basic {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 
@@ -99,13 +100,13 @@
 .price-card__business {
     position: relative;
     overflow: hidden;
-    .label {
+    .ribbon {
         position: absolute;
-        width: 147.08px;
-        height: 25.01px;
+        text-transform: uppercase;
         background-color: $color-red;
         transform: rotate(45deg);
-        text-transform: uppercase;
+        width: 147.08px;
+        height: 25.01px;
         line-height: 25.01px;
         font-weight: 700;
         font-size: 14px;
@@ -114,7 +115,7 @@
     }
 }
 
-.list-item__image-basic {
+.list-item__shape-basic {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 
@@ -126,7 +127,7 @@
     background-color: $color-blue;
 }
 
-.list-item__image-business {
+.list-item__shape-business {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
 
@@ -134,7 +135,7 @@
     background-color: $color-blue
 }
 
-.list-item__image-webshop {
+.list-item__shape-webshop {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 
