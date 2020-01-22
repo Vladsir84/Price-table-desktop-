@@ -1,0 +1,17 @@
+@import 'variables.scss';
+@import 'prices.scss';
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: $color-white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
